@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
 import './Card.css';
+import CardBanner from './CardBanner';
+import CardContent from './CardContent';
 
-class CardContainer extends { Component } {
-    constructor() {
-        super();
-
-    }
-
-    render() {
-        // return ();
-    }
+const CardContainer = () => {
+    return (
+        <div>
+            <CardBanner />
+            <CardContent />
+        </div>
+    )
 }
 
 export default CardContainer;

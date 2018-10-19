@@ -1,1 +1,16 @@
 /* All styles for your Card Components live here */
+
+img.card-img {
+    width: 85%;
+    margin-left: 12%;
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+}
+
+.card-body {
+    width: 85%;
+    margin-left: 12%;
+    border: 0.5px solid lightgray;
+    border-bottom-left-radius: 2%;
+    border-bottom-right-radius: 2%;
+}
